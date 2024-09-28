@@ -7,9 +7,9 @@ public class VehicleManagement {
 
     public static void main(String[] args) {
         
-        Manufacture toyota = new Manufacture("Toyota", "Japan");
-        Manufacture tesla = new Manufacture("Tesla", "USA");
-        Manufacture ford = new Manufacture("Ford", "USA");
+        Manufacture volkswagen = new Manufacture("Volkswagen", "Germany");
+        Manufacture renault = new Manufacture("Renault", "France");
+        Manufacture mazda = new Manufacture("mazda", "Japan");
 
         
         CombustionEngine combustionEngine = new CombustionEngine();
@@ -17,9 +17,9 @@ public class VehicleManagement {
         HybridEngine hybridEngine = new HybridEngine();
 
         
-        ICEV icev = new ICEV(toyota, combustionEngine);
-        BEV bev = new BEV(tesla, electricEngine);
-        HybridV hybridV = new HybridV(ford, hybridEngine);
+        ICEV icev = new ICEV(volkswagen, combustionEngine);
+        BEV bev = new BEV(renault, electricEngine);
+        HybridV hybridV = new HybridV(mazda, hybridEngine);
 
        
         List<Vehicle> vehicles = new ArrayList<>();
