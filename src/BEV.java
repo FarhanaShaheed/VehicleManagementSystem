@@ -1,4 +1,4 @@
-package vehicle.management;
+
 
 public class BEV extends Vehicle {
     public BEV(Manufacture manufacture, ElectricEngine engine) {

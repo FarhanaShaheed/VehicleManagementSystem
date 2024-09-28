@@ -1,4 +1,4 @@
-package vehicle.management;
+
 
 public class Manufacture {
     private String name;

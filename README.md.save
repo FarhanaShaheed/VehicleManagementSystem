@@ -1,7 +1,8 @@
+# Vehicle Management System
 # Homework 3:
 
-## Name: Farhana Binta Shaheed
-## Matriculation Number: 7216429
+## Name: Sadman Sakib
+## Matriculation Number: 7213446
 
 ## 📄 Project Description
 This project is a solution for Homework3, where we extend and modify the solution from Homework2 to create a more complex class hierarchy using inheritance and polymorphism in Java.
@@ -19,16 +20,26 @@ The project consists of the following Java files:
 - `Manufacture.java`: Class representing a vehicle's manufacturer.
 - `Vehicle.java`: Abstract superclass representing vehicles.
 - `ICEV.java`, `BEV.java`, `HybridV.java`: Subclasses of `Vehicle` representing different vehicle types.
-- `VehicleManagement.java`: The main class to run the program and demonstrate the functionality.
+- `Main.java`: The main class to run the program and demonstrate the functionality.
 
-## 📂 Run The Project
+## Installation
+
+### Setting Up the Project
+
+1. **Clone/Download the Project**
+
+
+2. **Open the Project in Eclipse**:
+   - Start Eclipse.
+   - Select `File` > `Open Projects from File System...` from the menu.
+   - Navigate to the directory where you cloned the project.
+   - Select the project and click `Finish` to import it into Eclipse.
+
+## Running the Application
+
 To run the Car Management System within Eclipse:
-1. **Navigate to the `VehicleManagement.java` File**:
+1. **Navigate to the `Main.java` File**:
    - In Eclipse, expand the project tree in the `Project Explorer`.
-   - Find `src` > `(default package)` > `VehicleManagement.java`.
-2. **Run the Application**:
-   - Right-click on `VehicleManagement.java`.
-   - Select `Run As` > `Java Application`.
-   - The application will execute and create output files in the project root directory, based on the predefined filters.
+   - Find `src` > `(default package)` > `Main.java`.
 
 

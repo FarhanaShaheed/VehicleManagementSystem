@@ -1,4 +1,4 @@
-package vehicle.management;
+
 
 public abstract class Vehicle {
     private Manufacture manufacture;
