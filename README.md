@@ -31,4 +31,6 @@ To run the Car Management System within Eclipse:
    - Select `Run As` > `Java Application`.
    - The application will execute and create output files in the project root directory, based on the predefined filters.
 
+## 📂 Output Result
+When you run the `VehicleManagement` class, the program will create instances of different vehicle types (ICEV, BEV, HybridV) and display their characteristics. The output will be printed to the console, showing the manufacture details and engine type for each vehicle.
 
